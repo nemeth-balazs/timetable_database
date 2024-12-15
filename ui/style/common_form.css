@@ -1,0 +1,48 @@
+div.container_label label {
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    display: inline-block;
+    min-width: 200px;
+}
+
+div.container_input input,
+div.container_input select{
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+select{
+    min-width: 180px;
+}
+
+input[type="submit"]
+{
+    margin: 5px;
+    padding: 5px;
+}
+
+div.container_input input[type="submit"]{
+    background-color: #048407;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    min-width: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.error_message{
+    margin: 5px;
+    padding: 5px;
+    color: red;
+}
+
+.message{
+    margin: 5px;
+    padding: 5px;
+    color: green;
+}

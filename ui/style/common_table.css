@@ -1,0 +1,68 @@
+.delete-btn {
+    width: 90%;
+    height: 90%;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+.modify-btn {
+    width: 90%;
+    height: 90%;
+    border: none;
+    background-color: #ac9b12;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.modify-btn:hover {
+    background-color: #c29805;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    table-layout: fixed;
+}
+
+td input,
+td textarea{
+    width: 90%;
+    box-sizing: border-box;
+}
+
+td select{
+    width: 70%;
+    box-sizing: border-box;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 3px;
+    text-align: center;
+    vertical-align: middle;
+    width: 90%;
+    word-wrap: break-word;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
